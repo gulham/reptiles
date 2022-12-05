@@ -29,3 +29,12 @@ html,body{
     font-size: 18px;
     color: #333;
 }
+.container h1{
+    color: transparent;
+    padding: 20px;
+    text-align: center;
+    background-image: url(yesil.jpg);
+    background-clip: text;
+    -webkit-background-clip: text; /*bu olmazsa üstteki çalışmaz */
+    
+}
