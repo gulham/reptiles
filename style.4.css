@@ -8,14 +8,21 @@
 }
 html,body{
     height: 100%;
-    overflow: hidden;
+    margin: 0;
+    overflow: auto;
 }
 .header{
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    font-size: larger;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
     padding: 0 15px;
+    margin-left: 0;
     border-bottom: 1px solid #ddd;
 }
 .header .menu ul{
@@ -28,11 +35,35 @@ html,body{
     font-size: 18px;
     color: #333;
 }
-/* .photo{
-    padding: 10px;
+.header .menu ul li:nth-child(4){
+    text-shadow: 0px 0px 10px #000;
+}
+.photo{
+    padding-top: 100px;
+    margin-bottom: -40px;
     text-align: center;
-}  */
+} 
 .content{
+    margin-right: 100px;
     margin-left: 100px;
     padding: 10px;
+    padding-top: 50px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.footer{
+    background: #ddd;
+    justify-content:space-evenly;
+    margin-bottom: -15px;
+}
+.footer .menu2 ul{
+    display: flex;
+    justify-content: center;
+}
+.footer .menu2 ul li{
+    margin: 0 30px; 
+}
+.footer .menu2 ul li p{
+    font-size: 18px;
+    color: #333;
 }
