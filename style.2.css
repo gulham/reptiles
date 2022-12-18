@@ -23,7 +23,6 @@ html,body{
     height: 60px;
     padding: 0 15px;
     margin-left: 0;
-    border-bottom: 1px solid #ddd;
 }
 .header .menu ul{
     display: flex;
@@ -42,9 +41,10 @@ html,body{
     padding-top: 100px;
     margin-bottom: -40px;
     text-align: center;
-}  
+}
 img{
     border: 5px solid #000;
+    margin-left: 1px;
     margin-right: 1px;
 }
 .content{
