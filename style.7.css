@@ -10,6 +10,7 @@ html,body{
     height: 100%;
     margin: 0;
     overflow: auto;
+    background-image: url(resim1.png);
 }
 .header{
     width: 100%;
@@ -58,6 +59,7 @@ img{
 }
 .video{
     text-align: center;
+    margin-bottom: 40px;
 }
 .communication{
     display: flex;

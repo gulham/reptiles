@@ -7,8 +7,8 @@
     box-sizing: border-box;
 }
 html,body{
+    background-image: url(resim1.png);
     height: 100%;
-    
     overflow: hidden;
 }
 .header {

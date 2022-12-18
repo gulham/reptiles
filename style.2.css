@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 html,body{
+    background-image: url(resim1.png);
     height: 100%;
     margin: 0;
     overflow: auto;
@@ -59,6 +60,7 @@ img{
 }
 .video{
     text-align: center;
+    margin-bottom: 40px;
 }
 .communication{
     display: flex;
