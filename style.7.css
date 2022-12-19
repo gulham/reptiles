@@ -73,3 +73,6 @@ img{
     border: none;
     margin: 3px;
 }
+a:hover{
+    transform: scale(1.5);
+}
