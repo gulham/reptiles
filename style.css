@@ -17,9 +17,12 @@ html,body{
     margin: -60px;
     font-size: xx-large;
     font-weight:900;
-    color: black;
     padding: 6px;
     text-align: center;
+    background-image: url(canyon.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .line1{
     display: flex;
@@ -34,7 +37,10 @@ html,body{
 .line1 h1{
     margin: -10px;
     font-weight: 900;
-    color: black;
+    background-image: url(canyon.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .line1 img{
     border: 5px solid #000;
@@ -50,7 +56,10 @@ html,body{
 .line2 h1{
     margin: -10px;
     font-weight: 900;
-    color: black;
+    background-image: url(canyon.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .line2 img{
     border: 5px solid #000;
@@ -67,7 +76,10 @@ html,body{
 .line3 h1{
     margin: -10px;
     font-weight: 900;
-    color: black;
+    background-image: url(canyon.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .line3 img{
     border: 5px solid #000;
