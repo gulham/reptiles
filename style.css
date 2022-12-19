@@ -8,6 +8,7 @@
 }
 html,body{
     background-image: url(resim1.png);
+    background-size: cover;
     height: 100%;
     overflow: hidden;
 }
@@ -16,12 +17,9 @@ html,body{
     margin: -60px;
     font-size: xx-large;
     font-weight:900;
-    color: transparent;
+    color: black;
     padding: 6px;
     text-align: center;
-    background-image: url(yesil.jpg);
-    background-clip: text;
-    -webkit-background-clip: text; /*bu olmazsa üstteki çalışmaz */
 }
 .line1{
     display: flex;
@@ -36,10 +34,7 @@ html,body{
 .line1 h1{
     margin: -10px;
     font-weight: 900;
-    color: transparent;
-    background: url(yesil.jpg);
-    background-clip: text;
-    -webkit-background-clip: text;
+    color: black;
 }
 .line1 img{
     border: 5px solid #000;
@@ -55,10 +50,7 @@ html,body{
 .line2 h1{
     margin: -10px;
     font-weight: 900;
-    color: transparent;
-    background: url(yesil.jpg);
-    background-clip: text;
-    -webkit-background-clip: text;
+    color: black;
 }
 .line2 img{
     border: 5px solid #000;
@@ -75,10 +67,7 @@ html,body{
 .line3 h1{
     margin: -10px;
     font-weight: 900;
-    color: transparent;
-    background: url(yesil.jpg);
-    background-clip: text;
-    -webkit-background-clip: text;
+    color: black;
 }
 .line3 img{
     border: 5px solid #000;

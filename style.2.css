@@ -8,6 +8,7 @@
 }
 html,body{
     background-image: url(resim1.png);
+    background-size: cover;
     height: 100%;
     margin: 0;
     overflow: auto;
@@ -57,6 +58,7 @@ img{
     letter-spacing: 1px;
     text-align: center;
     font-size: 19px;
+    color: #fff;
 }
 .video{
     text-align: center;

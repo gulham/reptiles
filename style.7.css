@@ -11,6 +11,7 @@ html,body{
     margin: 0;
     overflow: auto;
     background-image: url(resim1.png);
+    background-size: cover;
 }
 .header{
     width: 100%;
@@ -56,6 +57,7 @@ img{
     letter-spacing: 1px;
     text-align: center;
     font-size: 19px;
+    color: #fff;
 }
 .video{
     text-align: center;
