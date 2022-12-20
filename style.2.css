@@ -13,6 +13,14 @@ html,body{
     margin: 0;
     overflow: auto;
 }
+body::-webkit-scrollbar{
+    background: rgb(17, 76, 17);
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #bad092;
+    border-radius: 9px;
+}
 .header{
     width: 100%;
     position: fixed;
